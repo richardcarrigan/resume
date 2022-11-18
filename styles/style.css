@@ -164,5 +164,57 @@ li {
 }
 
 @media (prefers-color-scheme: light) {
-  
+  * {
+    color: var(--mainTextColor-light);
+  }
+
+  body {
+    background-color: var(--mainBgColor-light);
+  }
+
+  p,
+  span,
+  li {
+    color: var(--secondaryTextColor-light);
+  }
+
+  a {
+    color: var(--mainLinkColor-light);
+  }
+
+  #email {
+    color: var(--mainTextColor-light);
+  }
+
+  #socials--list a {
+    color: var(--secondaryTextColor-light);
+  }
+
+  #socials--list a:hover {
+    color: var(--mainLinkColor-light);
+  }
+
+  .card--techstack {
+    border: 1px solid var(--mainBorderColor-light);
+  }
+
+  .card--work-history {
+    border-left: 1px solid var(--mainBorderColor-light);
+  }
+
+  .line-break {
+    background-color: var(--mainBorderColor-light);
+  }
+
+  .card--project {
+    border-top: 1px solid var(--mainBorderColor-light);
+  }
+
+  .card--project a {
+    color: var(--mainTextColor-light);
+  }
+
+  .card--project a:hover {
+    color: var(--mainLinkColor-light);
+  }
 }
