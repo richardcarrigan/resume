@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/richardcarrigan/resume#readme",
+  "bugs": {
+    "url": "https://github.com/richardcarrigan/resume/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardcarrigan/resume.git"
+  },
+  "license": "ISC",
+  "author": "Richard Carrigan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "md-to-pdf ./resume.md"
+  },
+  "devDependencies": {
+    "md-to-pdf": "^5.2.5"
+  }
+}
