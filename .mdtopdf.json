@@ -1,5 +1,10 @@
 {
   "launch_options": {
     "args": ["--no-sandbox", "--disable-setuid-sandbox"]
-  }
+  },
+  "pdf_options": {
+    "format": "Letter",
+    "margin": "0.5in"
+  },
+  "stylesheet": "style.css"
 }

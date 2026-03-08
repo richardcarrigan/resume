@@ -1,7 +1,9 @@
 # Richard Carrigan
 
-📞 206.498.7053 | 📧[me@richardcarrigan.com](mailto:me@richardcarrigan.com)
-[Website](https://richardcarrigan.com) | [Blog](https://blog.richardcarrigan.com) | [LinkedIn](https://linkedin.com/in/richardcarrigan) | [GitHub](https://github.com/richardcarrigan)
+<p id='contact-info'>
+  📞 <a href='tel:2064987053'>206.498.7053</a> | 📧 <a href='mailto:me@richardcarrigan.com'>me@richardcarrigan.com</a><br />
+  <a href='https://richardcarrigan.com'>Website</a> | <a href='https://blog.richardcarrigan.com'>Blog</a> | <a href='https://linkedin.com/in/richardcarrigan'>LinkedIn</a> | <a href='https://github.com/richardcarrigan'>GitHub</a>
+</p>
 
 ## Experience
 
