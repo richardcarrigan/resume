@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "cat resume.md | md-to-pdf > richard_carrigan_resume.pdf"
+    "publish": "cat richard_carrigan_resume.md | md-to-pdf --config-file .mdtopdf.json > richard_carrigan_resume.pdf"
   },
   "devDependencies": {
     "md-to-pdf": "^5.2.5"
