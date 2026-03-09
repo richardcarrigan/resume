@@ -1,16 +1,78 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
 * {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
 
-h1,
-h2 {
-  text-align: center;
+body {
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+  min-height: 100vh;
 }
 
-#contact-info {
+h1 {
+  color: #0078d4;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  border-bottom: 2px solid #0078d4;
+  font-size: 1.2rem;
+  margin: 1.5rem 0 1rem 0;
+  padding-bottom: 0.2rem;
+  text-transform: uppercase;
+  page-break-after: avoid; /* Prevents headers from being orphaned at bottom of page */
+}
+
+h3,
+.skills-category {
+  page-break-inside: avoid;
+}
+
+strong {
+  color: #000;
+  font-weight: 700;
+}
+
+ul {
+  margin-bottom: 0.5rem;
+}
+
+.fa-brands,
+.fa-solid {
+  width: 1.5rem;
   text-align: center;
+  margin-right: 0.5rem;
+}
+
+/* Skills grid: 3 columns for max density */
+.skills-category {
+  & h4 {
+    color: #0078d4;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  & ul {
+    font-size: 0.9rem;
+    list-style: none;
+  }
+}
+.skills-grid {
+  background-color: #f4f7f9;
+  border-left: 5px solid #0078d4;
+  border-radius: 4px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-block: 1rem;
+  padding: 1.5rem;
 }
