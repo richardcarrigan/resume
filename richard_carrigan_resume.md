@@ -56,14 +56,20 @@
 
 ### Senior Program Manager, Microsoft (2020 - Present)
 
-- Led a globally distributed team of developers to schedule, prioritize, and complete projects related to technical and business goals on time and within budget.
-- Architected several solutions using Azure resources, provisioned using Bicep ARM templates, deployed via Azure DevOps CI/CD Pipelines, and maintained with strict Git workflow policies.
-- Responsible for ensuring that the team’s Azure subscription and provisioned resources are compliant with all corporate and federal regulations with regard to data privacy and security.
-- Refactored existing Node.js JavaScript API to include automated testing, graceful error handling, file upload and storage in Azure Blob Storage, and LinkedIn authentication for automatic form completion, which led to **10x greater scalability** and **40x load capacity**.
-- Designed, built, tested, and deployed over 20 Power Platform solutions using various combinations of Power Apps, Power Automate Flows, and Power Pages to solve pain points in business processes and streamline workflows.
-- Architected and configured Application Lifecycle Management (ALM) workflows to apply Software Development Lifecycle (SDL) best practices to Power Platform solutions, leveraging Azure DevOps and Power Platform build tools, which led to a 20% reduction in development time, and an 80% reduction in deployment errors.
-- Led the migration and redesign of [leap.microsoft.com](https://leap.microsoft.com) from WordPress to Power Pages, levering the Moray Microsoft Web Framework, and allowing more seamless data transmission between the Dataverse database and the website.
-- Developed a solution using Azure AI Translator, Blob Storage, and Function Apps that automatically translated Power Pages website content into any language/dialect supported by both Power Pages and Azure AI Translator.
+- Led delivery of internal talent intake and workforce transformation platforms, managing globally distributed engineering teams to build and operate systems supporting applicant tracking, skilling program operations, and Azure‑hosted integration services.
+- Architected cloud‑based application solutions using Azure resources provisioned via Bicep ARM templates and deployed through Azure DevOps CI/CD pipelines, ensuring compliance with corporate and federal data privacy and security requirements.
+- Refactored production Node.js intake API to include automated testing, resilient error handling, secure file upload to Azure Blob Storage, and LinkedIn‑based form autofill—improving platform scalability by 10× and supported load capacity by 40×.
+- Designed, built, and deployed 20+ Power Platform solutions (Power Apps, Power Automate, Power Pages) to streamline applicant intake and skilling workflows across internal workforce development programs.
+- Implemented Application Lifecycle Management (ALM) pipelines applying SDL best practices to Power Platform solutions via Azure DevOps and Power Platform build tools—reducing development time by 20% and deployment errors by 80%.
+- Led migration and redesign of [leap.microsoft.com](https://leap.microsoft.com) from WordPress to Power Pages using the Moray UI framework, enabling reusable web components and seamless Dataverse‑backed applicant data integration.
+- Provisioned and managed Azure application infrastructure supporting applicant lifecycle operations, including:
+    - Node.js API deployed via Azure Web App
+    - Logic Apps for automated application confirmation workflows
+    - Azure Function App for Azure SQL ↔ Dataverse synchronization
+    - Blob Storage for secure resume ingestion and storage
+- Directed operational delivery of an internal AI Skills Accelerator program for software engineers, managing participant registration, automated cohort formation, and engagement tracking across multi‑week cohort‑based learning experiences.
+- Established standardized attendance and engagement measurement methodology for skilling programs, enabling longitudinal analysis of learner confidence and enterprise AI tool adoption across program deliveries.
+- Developed methodology for evaluating AI‑assisted engineering output (e.g., AI‑assisted pull requests and downstream review/rework patterns) to support measurement of agentic AI feature development across engineering teams.
 
 ## Education & Speaking
 
