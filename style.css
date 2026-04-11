@@ -46,6 +46,15 @@ ul {
   margin-bottom: 0.5rem;
 }
 
+ul, ol {
+  padding-left: 2rem !important;
+  list-style-position: inside; /* Forces bullets into the content box */
+}
+
+li {
+  list-style-type: disc !important; /* Forces the bullet to show */
+}
+
 .fa-brands,
 .fa-solid {
   width: 1.5rem;
